@@ -1,4 +1,4 @@
-# Docker
+# Docker 
 ### Download Docker
 https://www.docker.com/products/docker-desktop/
 
@@ -36,5 +36,15 @@ https://www.docker.com/products/docker-desktop/
 **Create a Database**
 
 > create database test;
+
+**To view Database**
+
+> \l
+
+**To connect database "test" as user "postgres"**
+
+> \c test
+
+Referrence from [here](https://www.youtube.com/watch?v=aHbE3pTyG-Q)
 
 
