@@ -33,4 +33,8 @@ https://www.docker.com/products/docker-desktop/
 
 > \du
 
+**Create a Database**
+
+> create database test;
+
 
