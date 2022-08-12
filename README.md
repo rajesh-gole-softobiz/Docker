@@ -27,4 +27,10 @@ https://www.docker.com/products/docker-desktop/
 
 > psql -U postgres   // -U for username
 
+**Now you are inside of postgres**
+
+**To see the actual user that you have inside postgres**
+
+> \du
+
 
