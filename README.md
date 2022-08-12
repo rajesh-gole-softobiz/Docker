@@ -63,6 +63,10 @@ Referrence from [here](https://www.youtube.com/watch?v=aHbE3pTyG-Q)
 
 > docker run --name postgres-nest -p 5432:5432 POSTGRES_PASSWORD=rajesh -d postgres
 
+_or_
+
+> docker run --name postgres-nest -e POSTGRES_PASSWORD=rajesh -d -p 5432:5432 postgres
+
 "docker" is docker
 
 "run" means I want to run a container
