@@ -17,3 +17,14 @@ https://www.docker.com/products/docker-desktop/
 > docker ps
 
 > docker exec -it postgres-0 bash
+
+**Now you are in actual container**
+> pwd
+
+> ls
+
+>  psql --help
+
+> psql -U postgres   // -U for username
+
+
