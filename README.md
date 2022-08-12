@@ -15,3 +15,5 @@ https://www.docker.com/products/docker-desktop/
 > docker run --name postgres-0 -e POSTGRES_PASSWORD=password -d -p5432:5432 postgres:alpine
 
 > docker ps
+
+> docker exec -it postgres-0 bash
