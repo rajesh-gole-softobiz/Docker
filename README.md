@@ -48,3 +48,44 @@ https://www.docker.com/products/docker-desktop/
 Referrence from [here](https://www.youtube.com/watch?v=aHbE3pTyG-Q)
 
 
+
+
+
+------------------------------------------
+------------------------------------------
+# Running Postgres via Docker
+
+**To check docker install properly**
+
+> docker
+
+**To run a posgres container**
+
+> docker run --name postgres-nest -p 5432:5432 POSTGRES_PASSWORD=rajesh -d postgres
+
+"docker" is docker
+
+"run" means I want to run a container
+
+"--name postgres-nest" means how I want to name my container
+
+"-p 5432:5432" means container's port is :5432 and I want to host/map it to my current machine port 5432:
+
+"-e POSTGRES_PASSWORD=rajesh" -e means environment variable. I wantto tell the docker container of the postgres to set the POSTGRES_PASSWORD to 'rajesh'
+
+"-d" means detached mode, that means docker will running after closingthe cli
+
+"postgres" this is the actual container name stored on the cloud 
+
+
+**To ensure the container is running**
+
+> docker container ls
+
+***To stop a container*
+
+> docker container stop <container-name>
+
+> docker container stop postgres-nest
+
+
